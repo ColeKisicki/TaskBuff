@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/13280875/join-on-array-of-ids-in-sql
