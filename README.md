@@ -8,7 +8,9 @@ TaksBuff is a web app that allows users to create, share and keep track of vario
 
 ## How to run TaskBuff
 
-Currently taskbuff is only set up to be run locally. To do so you will need to run the following, which starts up the database:
+Currently TaskBuff is only set up to be run locally. The project relies on an older Node.js runtime which does not work with Node 20+.  An `.nvmrc` file is provided so you can easily use a compatible version of Node (14.21.3).  If you have [nvm](https://github.com/nvm-sh/nvm) installed simply run `nvm use` inside the repository before installing dependencies.
+
+To start the database run the following:
 ```
 cd code/task-buff-web/server
 sudo docker-compose up
